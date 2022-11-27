@@ -10,3 +10,5 @@ What problems do ResNets solve?
 
 One of the problems ResNets solve is the famous known vanishing gradient. This is because when the network is too deep, the gradients from where the loss function is calculated easily shrink to zero after several applications of the chain rule. This results in the weights never updating their values and therefore, no learning is being performed.
 With ResNets, the gradients can flow directly through the skip connections backward from later layers to initial filters.
+
+For more information visit : https://www.linkedin.com/pulse/deep-residual-networks-resnet-ayoub-kirouane
